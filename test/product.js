@@ -2,7 +2,7 @@
 
 const { Contract } = require('fabric-contract-api');
 
-class Task extends Contract {
+class Product extends Contract {
 
     async Init(stub) {
         console.info("Intialized");
@@ -124,4 +124,4 @@ while (true) {
 
 
 }
-module.exports = Task;
+module.exports = Product;
